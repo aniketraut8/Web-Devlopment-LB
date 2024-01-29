@@ -1,0 +1,32 @@
+.box{
+  background-color: brown;
+  width: 200px;
+  transform: translate(100px,100px);
+}
+
+.box2{
+    background-color: rgb(42, 120, 165);
+    width: 200px;
+    transform: rotate(-45deg);
+    
+}
+
+.box3{
+    background-color: rgb(81, 165, 42);
+    width: 200px;
+    transform: scale(1,2);
+}
+
+.box4{
+    background-color: rgb(165, 165, 42);
+    margin:10px;
+    width: 200px;
+    transform:skew(45deg);
+}
+
+.box5{
+    background-color: pink;
+    width:200px;
+    /* matrix(scaleX,skewY,skewX,scaleY,translateX,translateY) */
+    transform:matrix(1, -0.3, 0, 1, 0, 0);
+}

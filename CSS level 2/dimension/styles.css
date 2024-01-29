@@ -1,0 +1,15 @@
+.box{
+    border:1px solid black;
+    max-width: max-content;    
+}
+
+
+.myclass{ 
+    margin:5px;
+    border:2px solid black;
+    max-height: 100px;
+    /* overflow can be visble,hidden,scroll,auto */
+    overflow:scroll;
+    background-color: rgb(29, 128, 214);
+    
+}
