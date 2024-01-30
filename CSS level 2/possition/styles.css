@@ -1,0 +1,40 @@
+div{
+    display:inline-block;
+    background-color: aqua;
+    width:150px;
+    height:150px;
+    border:1px solid black;
+}
+
+.wrapper{
+    width:100vw;
+    height:2000px;
+    background-color: chocolate;
+}
+/* Position Properties
+ |static
+ |relative
+ |fixed
+ |absolute
+ |sticky
+
+*/
+
+#box3{
+    /* absolute position is rspt to default body */
+    position:absolute;
+    top:100px;
+   right:50px;
+}
+#box2{
+    /* relative position is rspct to close anscestor */
+    position:relative;
+   top:30px;
+   left:20px;
+}
+
+#box4{
+    /* sticky acts betn relative and fixed positioning */
+    position:sticky;
+    top:0px;
+}
