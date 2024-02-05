@@ -1,0 +1,38 @@
+.container{
+/* There r 2 axis main(horiz)and cross(vertical) */
+
+    height:400px;
+    border:2px solid green;
+    display:flex;
+    flex-direction: row-reverse;
+    /* using wrap we can block width until poss */
+    flex-wrap: wrap;
+    /* using flow we can combine direc & wrap */
+    flex-flow: row wrap;
+
+    /*we can align around main axis  */
+   justify-content:flex-start;
+   justify-content:flex-end;
+   justify-content:space-around;
+   justify-content:space-evenly;
+   justify-content:space-between;
+   justify-content:center;
+
+   /* align wrt cross axis */
+   align-items:center;
+   gap:10px;
+
+   /* jitni bhi rows ban rhi hai unki betn ki spacing handle krta hai */
+  align-content: flex-start;
+  align-content: flex-end;
+  align-content: space-between;
+  align-content: space-around;
+  align-content: space-evenly;
+  align-content: center; 
+}
+
+.box{
+    border:1px solid brown;
+    background-color: aqua;
+    width:500px;
+}

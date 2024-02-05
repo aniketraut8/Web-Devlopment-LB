@@ -1,0 +1,47 @@
+.container{
+    height:300px;
+    border:2px solid red;
+    display:flex;
+/* 
+     flex-wrap: wrap; */
+
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    /* gap:10px; */
+}
+
+.box{
+    border:1px solid black;
+    background-color: yellow;
+    /* using width overflow content willbe hidden */
+    width:100px;
+    /* width of flexitems using flexbasis overflow content will be seen */
+    flex-basis: 100px;
+    /* flex: flow shrink basis */
+    /* flex: 1 1 100px; */
+}
+
+#box1{
+order:7;
+/* all has equal width but box 1 has remain  */
+/* flex-grow:1; */
+align-self:flex-end;
+}
+
+#box2{
+    order:5;
+    /* we can adjust speed of shrinking of box */
+    flex-shrink: 4;
+    align-self: flex-start;
+}
+
+#box4{
+    order:6;
+    /* using align self we can place flex items in start and end and can stretch */
+align-self: stretch;
+}
+
+#box3{
+
+}
