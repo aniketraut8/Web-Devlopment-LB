@@ -68,9 +68,10 @@ overflow-y: auto;
     /* transparant */
     opacity:0;
     border-radius: 0 0 10px 10px;
-    background:linear-gradient(0deg, rgba(0,0,0,0.5)0%,rgba(255,255,255,0));
+    background:linear-gradient(0deg, rgba(0,0,0,0.5)0%,rgba(255,255,255,0)100%);
     transition:0.3s;
 }
+
 .card:hover figcaption{
     opacity:1;
     transform:scale(1.03);
