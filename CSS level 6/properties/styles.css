@@ -1,0 +1,58 @@
+.container{
+    border:1px solid brown;
+    background-color: yellow; 
+    height: 700px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(2,100px);
+    grid-gap:10px;
+
+    justify-content: start;
+    justify-content: end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+
+    align-items: start;
+    align-items: end;
+    align-items: baseline;
+    align-items:stretch;
+
+    align-content: end;
+    align-content: center;
+    align-content: space-around;
+    align-content:space-between;
+    align-content: space-evenly;
+
+    /* same as:justify-content: center
+               align-content: center; */
+    place-content: center;
+
+/* same as:justify-items: center;
+            align-items:center */
+place-items: center;
+
+}
+
+/* Diff betn justify content,items,self */
+/* jc:position of box change */
+/* ji:position change but width also change acc to content width */
+/* js:the change for content is done for particular box */
+
+.box{
+    border:1px solid red;
+    background-color: aqua;
+}
+
+ #box1{
+    /* justify self & alignself property is applicable on items
+    /* it works on horizontal main axis */
+    justify-self: start;
+    justify-self: end;
+    justify-self:center;
+
+    /* align self works on vertical/cross axis */
+    align-self: center; 
+}
