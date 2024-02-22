@@ -1,5 +1,6 @@
 .container{
-    height:800px;
+    height:700px;
+    width:504px;
     border:1px solid red;
     background-color: yellow;
 
@@ -33,15 +34,3 @@
     grid-area: main;
 }
 
-/* in diff screen/devices if i want to add diff styling then MEDIA QUERIES are used */
-@media(max-width:350px){
-  .container{
-    grid-template-rows:30px 1fr 30px ;
-    grid-template-columns: 100px 400px;
-    grid-gap:2px;
-    grid-template-areas: 
-    "hd hd"
-    "side" "main"
-    "ft" "ft";
-  }
-}
