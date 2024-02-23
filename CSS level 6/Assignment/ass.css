@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container-content{
+    height:100%;
+    width:100%;
+    padding:30px;
+    /* border:1px solid black; */
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:20px;
+    
+}
+
+.box{
+    border:2px solid grey;
+    padding:20px;
+
+}
+
+.navbar{
+    padding-top: 3%;
+    padding-left: 45%;
+
+}
+
+#world{
+    color: blue;
+    padding-bottom:8px;
+}
+#design{
+    color:green;
+    padding-bottom:8px;
+}
+
+.date{
+    color:black;
+    opacity: 0.5;
+    padding-bottom: 9px;
+}
+
+.a{
+    color:blue;
+}
