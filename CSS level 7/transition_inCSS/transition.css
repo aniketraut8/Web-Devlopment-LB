@@ -1,0 +1,55 @@
+.container{
+    height:500px;
+    width:100%;
+    background-color: beige;
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.box{
+    height:150px;
+    width:150px;
+    margin:20px;
+    background-color: aqua;
+    border:1px solid black;
+
+    /* it takes 2sec to complete its transition */
+    /* transition:2s; */
+    /* transition-property:background-color; */
+    /* from 5sec wait it start hover  */
+    /* transition-delay: 5sec; */
+
+    /* :trans-property,trans-duration,trans-timingfunc,trans-delay*/
+    transition:background-color 1s ease 3s;
+    transition:transform 1s ease 3s;
+    /* combine both */
+    transition: all 5s ease 1s;
+
+}
+
+.box:hover{
+    background-color: red;
+    transform: rotate(45deg);
+}
+
+.box2{
+    
+    height:150px;
+    width:150px;
+    margin:60px;
+    background-color: aqua;
+    border:1px solid black;
+    
+    /* transition:all 3s ease-in  1s; */
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+
+}
+.box2:hover{
+    background-color: yellow;
+    transform: translateX(500px) rotate(360deg) scale(2);
+}
