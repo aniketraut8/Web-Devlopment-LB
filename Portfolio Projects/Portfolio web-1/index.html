@@ -27,15 +27,17 @@
      </div> 
 
       <div class="hero-section">
+        <div class="faded-text">Aniket Raut</div>
+        
         <div class="hero-section-left">
-            <div class="hero-section-heading">Hi!! Aniket Raut</div>
-            <div class="hero-section-sub-heading">
-                I am a<span class="role"></span>
+            <div class="hero-section-heading">Hi! Aniket Raut</div>
+            <div class="hero-section-heading hero-section-sub-heading">
+                I am a <span class="role"></span>
             </div>
  
         <div class="hero-section-description">
-            I’m a software developer and here is my portfolio website.
-             Here you’ll learn about my journey as a software developer.
+            I'm a software developer and here is my portfolio website.
+             Here you'll learn about my journey as a software developer.
         </div>
 
         <div class="btn-pink" id="btn">Hire Me</div>
@@ -52,27 +54,43 @@
             <div class="absolute icons icon-circle">
                 <img src="images/User Assets/circle.png" alt="">
             </div>
-            <div class="absolute icons icon-zigzak">
+            <div class="absolute icons icon-zigzag">
                 <img src="images/User Assets/zigzags.png" alt="">
             </div>
             <div class="absolute icons icon-plus">
                 <img src="images/User Assets/plus.png" alt="">
             </div>
             <div class="user-image">
-                <!-- <img src="images/User Assets/AR.jpg" alt=""> -->
+                <img id="user-image" src="images/User Assets/AR.jpg" alt="">
             </div>
 
-        <div class="faded-text">Aniket Raut</div>
+      
         </div>
       </div>
 
 
  </div>
 
-
-
-
-
+ <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+ <script
+   src="https://kit.fontawesome.com/58a810656e.js"
+   crossorigin="anonymous"
+ ></script>
+ <script>
+   var typeData = new Typed(".role", {
+     strings: [
+       "Full Stack Developer",
+       "Web Developer",
+       "UI-UX Designer",
+       "Backend Developer",
+       "Coder",
+     ],
+     loop: true,
+     typeSpeed: 100,
+     backSpeed: 80,
+     backDelay: 1000,
+   });
+ </script>
 
 </body>
 </html>
