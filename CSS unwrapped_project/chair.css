@@ -420,7 +420,7 @@ h5 {
   .mob-margin {
     margin-top: 320px;
   }
-  
+   
   .desc-btn:checked + label,
   .desc-btn:not(:checked) + label {
     margin-right: 15px;
